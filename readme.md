@@ -209,6 +209,8 @@ The attribute `data-ignore` allows you to ignore path tags from the vivus animat
 
 In this case, the second path won't be part of the animation.
 
+The attribute `data-ignore` will be helpful when you use a stroke based svg `clipPath` or `Mask` since you probably don't want to include an invisible element in your animation.
+
 ## Scenarize
 
 This feature allows you to script the animation of your SVG. For this, the custom values will be set directly in the DOM of the SVG.
